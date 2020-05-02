@@ -1,12 +1,15 @@
+<?php
+$var='Hola PHP'
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola Mundo</title>
+    <title><?php echo $var ?></title>
 </head>
 <body>
-    <h1>Hola Mundo</h1>
-    Go to <a href="home.html">Home</a>
+    <h1><?php echo $var ?></h1>
+    Go To <a href="index.html">Index</a>
 </body>
 </html>
